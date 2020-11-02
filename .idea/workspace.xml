@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="test_simple_hours_2min_return_1st_2nd_3rd">
+    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="test_simple_hours_2min_return_1st_2nd_3rd_4th">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BerlinClock.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BerlinClockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604352188232</updated>
       <workItem from="1604352189456" duration="5456000" />
-      <workItem from="1604358809036" duration="2075000" />
+      <workItem from="1604358809036" duration="2680000" />
     </task>
     <task id="LOCAL-00001" summary="composer added">
       <created>1604354318702</created>
@@ -137,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604360924218</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test_simple_hours_2min_return_1st_2nd_3rd_4th">
+      <created>1604360971876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360971876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +170,8 @@
     <MESSAGE value="test_simple_minutes_1min_return_1st_lamp" />
     <MESSAGE value="test_simple_hours_2min_return_1st_2nd" />
     <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_simple_hours_2min_return_1st_2nd_3rd" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd_4th" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_simple_hours_2min_return_1st_2nd_3rd_4th" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="263" key="#Composer" timestamp="1604358837229">
