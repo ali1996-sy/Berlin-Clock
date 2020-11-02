@@ -12,7 +12,7 @@ public function __construct()
 public function display_simple_hours($hours): String{
     $text="{";
     for($i=0;$i<$hours;$i++){
-        $text+=$this->simpleHours[i];
+        $text+=$this->simpleHours[i]+",";
     }
     $text+="}";
     return $text;

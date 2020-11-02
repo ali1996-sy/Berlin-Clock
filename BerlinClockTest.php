@@ -12,8 +12,13 @@ class BerlinClockTest extends TestCase
         $this->berlinClock=new BerlinClock();
 
     }
-    public function test_simple_minutes_1min_return_1st_lamp(){
+    public function test_simple_hours_1min_return_1st(){
        $actual=$this->berlinClock->display_simple_hours(1);
-       $this->assertEquals(1,$actual);
+       $this->assertEquals("1st",$actual);
     }
+    public function test_simple_hours_2min_return_1st_2nd(){
+        $actual=$this->berlinClock->display_simple_hours(2);
+        $this->assertEquals("1st,2nd,",$actual);
+    }
+
 }
