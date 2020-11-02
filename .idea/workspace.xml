@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="test_simple_minutes_1min_return_1st_lamp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BerlinClock.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClock.php" afterDir="false" />
+    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="test_simple_hours_2min_return_1st_2nd_3rd">
       <change beforePath="$PROJECT_DIR$/BerlinClockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604352188232</updated>
       <workItem from="1604352189456" duration="5456000" />
-      <workItem from="1604358809036" duration="1877000" />
+      <workItem from="1604358809036" duration="2075000" />
     </task>
     <task id="LOCAL-00001" summary="composer added">
       <created>1604354318702</created>
@@ -125,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604360444248</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test_simple_hours_2min_return_1st_2nd">
+      <created>1604360853585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360853585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test_simple_hours_2min_return_1st_2nd_3rd">
+      <created>1604360924218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360924218</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +159,9 @@
     <MESSAGE value="composer added" />
     <MESSAGE value="creat function display_simple_hours" />
     <MESSAGE value="test_simple_minutes_1min_return_1st_lamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_simple_minutes_1min_return_1st_lamp" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_simple_hours_2min_return_1st_2nd_3rd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="263" key="#Composer" timestamp="1604358837229">
@@ -158,34 +172,34 @@
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="216" y="30" key="#PHP/84.0.1282.768@84.0.1282.768" timestamp="1604359096364" />
-    <state x="305" y="59" key="#Test_Frameworks" timestamp="1604357024053">
+    <state x="305" y="59" key="#Test_Frameworks" timestamp="1604360788021">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state x="305" y="59" key="#Test_Frameworks/84.0.1282.768@84.0.1282.768" timestamp="1604357024053" />
-    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604360309855">
+    <state x="305" y="59" key="#Test_Frameworks/84.0.1282.768@84.0.1282.768" timestamp="1604360788021" />
+    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604360789101">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604360309855" />
+    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604360789101" />
     <state x="505" y="159" key="FileChooserDialogImpl" timestamp="1604360308045">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="505" y="159" key="FileChooserDialogImpl/84.0.1282.768@84.0.1282.768" timestamp="1604360308045" />
-    <state width="1239" height="176" key="GridCell.Tab.0.bottom" timestamp="1604360328890">
+    <state width="1239" height="176" key="GridCell.Tab.0.bottom" timestamp="1604360836565">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="176" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604360328890" />
-    <state width="1239" height="176" key="GridCell.Tab.0.center" timestamp="1604360328889">
+    <state width="1239" height="176" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604360836565" />
+    <state width="1239" height="176" key="GridCell.Tab.0.center" timestamp="1604360836564">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="176" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604360328889" />
-    <state width="1239" height="176" key="GridCell.Tab.0.left" timestamp="1604360328889">
+    <state width="1239" height="176" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604360836564" />
+    <state width="1239" height="176" key="GridCell.Tab.0.left" timestamp="1604360836564">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="176" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604360328889" />
-    <state width="1239" height="176" key="GridCell.Tab.0.right" timestamp="1604360328889">
+    <state width="1239" height="176" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604360836564" />
+    <state width="1239" height="176" key="GridCell.Tab.0.right" timestamp="1604360836565">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="176" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604360328889" />
+    <state width="1239" height="176" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604360836565" />
     <state x="513" y="127" key="NewPhpClassDialog" timestamp="1604352201924">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
