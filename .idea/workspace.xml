@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d7c7b2c-fcb3-4010-84a5-58a569f379aa" name="Default Changelist" comment="refactoring tests" />
+    <list default="true" id="0d7c7b2c-fcb3-4010-84a5-58a569f379aa" name="Default Changelist" comment="test_digital_to_berlin_13_17_01">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,8 +77,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="cassandra" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-7.4/php.exe" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -104,7 +108,7 @@
       <workItem from="1604423716270" duration="1470000" />
       <workItem from="1604431549887" duration="3243000" />
       <workItem from="1604434923630" duration="282000" />
-      <workItem from="1604435230799" duration="2816000" />
+      <workItem from="1604435230799" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring display_bloc5_hours">
       <created>1604417828737</created>
@@ -169,7 +173,49 @@
       <option name="project" value="LOCAL" />
       <updated>1604437510241</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring tests">
+      <created>1604438159593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604438159593</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactoring tests pair">
+      <created>1604438764813</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604438764813</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add functionality digital_to_berlin">
+      <created>1604440744340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604440744340</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test_NB_seconds_impair_return_OFF">
+      <created>1604440839674</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604440839674</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test_digital_to_berlin_00_00_00">
+      <created>1604441459703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604441459703</updated>
+    </task>
+    <task id="LOCAL-00015" summary="test_digital_to_berlin_13_17_01">
+      <created>1604441874063</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604441874063</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,37 +241,50 @@
     <MESSAGE value="test digital_to_berlin" />
     <MESSAGE value="add digital_to_berlin" />
     <MESSAGE value="refactoring tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring tests" />
+    <MESSAGE value="refactoring tests pair" />
+    <MESSAGE value="add functionality digital_to_berlin" />
+    <MESSAGE value="test_NB_seconds_impair_return_OFF" />
+    <MESSAGE value="test_digital_to_berlin_00_00_00" />
+    <MESSAGE value="test_digital_to_berlin_13_17_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_digital_to_berlin_13_17_01" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="39" key="#CLI_Interpreters" timestamp="1604414016655">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="312" y="39" key="#CLI_Interpreters/84.0.1282.768@84.0.1282.768" timestamp="1604414016655" />
-    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604437736533">
+    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604441946136">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604437736533" />
+    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604441946136" />
+    <state x="176" y="92" width="1098" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604441467782">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="176" y="92" width="1098" height="584" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/84.0.1282.768@84.0.1282.768" timestamp="1604441467782" />
     <state x="512" y="139" key="FileChooserDialogImpl" timestamp="1604413939303">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="512" y="139" key="FileChooserDialogImpl/84.0.1282.768@84.0.1282.768" timestamp="1604413939303" />
-    <state width="1239" height="205" key="GridCell.Tab.0.bottom" timestamp="1604436763263">
+    <state width="1239" height="205" key="GridCell.Tab.0.bottom" timestamp="1604441854469">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="205" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
-    <state width="1239" height="205" key="GridCell.Tab.0.center" timestamp="1604436763263">
+    <state width="1239" height="205" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604441854469" />
+    <state width="1239" height="205" key="GridCell.Tab.0.center" timestamp="1604441854469">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="205" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
-    <state width="1239" height="205" key="GridCell.Tab.0.left" timestamp="1604436763263">
+    <state width="1239" height="205" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604441854469" />
+    <state width="1239" height="205" key="GridCell.Tab.0.left" timestamp="1604441854469">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="205" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
-    <state width="1239" height="205" key="GridCell.Tab.0.right" timestamp="1604436763263">
+    <state width="1239" height="205" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604441854469" />
+    <state width="1239" height="205" key="GridCell.Tab.0.right" timestamp="1604441854469">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state width="1239" height="205" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
+    <state width="1239" height="205" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604441854469" />
+    <state x="363" y="145" key="MultipleFileMergeDialog" timestamp="1604438176250">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="363" y="145" key="MultipleFileMergeDialog/84.0.1282.768@84.0.1282.768" timestamp="1604438176250" />
     <state x="518" y="86" key="RollbackChangesDialog" timestamp="1604433327823">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
@@ -234,17 +293,17 @@
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="226" y="29" key="SettingsEditor/84.0.1282.768@84.0.1282.768" timestamp="1604414122647" />
-    <state x="317" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604437751582">
+    <state x="317" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604441911174">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state x="317" y="117" key="Vcs.Push.Dialog.v2/84.0.1282.768@84.0.1282.768" timestamp="1604437751582" />
+    <state x="317" y="117" key="Vcs.Push.Dialog.v2/84.0.1282.768@84.0.1282.768" timestamp="1604441911174" />
     <state x="84" y="0" width="1021" height="521" key="dock-window-1" timestamp="1604433900318">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
     <state x="84" y="0" width="1021" height="521" key="dock-window-1/84.0.1282.768@84.0.1282.768" timestamp="1604433900318" />
-    <state x="381" y="174" key="run.anything.popup" timestamp="1604422973581">
+    <state x="381" y="174" key="run.anything.popup" timestamp="1604438752374">
       <screen x="84" y="0" width="1282" height="768" />
     </state>
-    <state x="381" y="174" key="run.anything.popup/84.0.1282.768@84.0.1282.768" timestamp="1604422973581" />
+    <state x="381" y="174" key="run.anything.popup/84.0.1282.768@84.0.1282.768" timestamp="1604438752374" />
   </component>
 </project>
