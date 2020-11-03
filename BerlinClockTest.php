@@ -30,21 +30,21 @@ class BerlinClockTest extends TestCase
         $actual=$this->berlinClock->display_simple_hours(4);
         $this->assertEquals("{1st,2nd,3rd,4th,}",$actual);
     }
-    public function test_simple_hours_5_return_5h(){
+    public function test_bloc5hours_5_return_5h(){
         $actual=$this->berlinClock->display_bloc5_hours(5);
-        $this->assertEquals("{5h,}",$actual);
+        $this->assertEquals("{ bloc5hours :ON,OFF,OFF,OFF}",$actual);
     }
-    public function test_simple_hours_10_return_5h_10h(){
+    public function test_bloc5hours_10_return_5h_10h(){
         $actual=$this->berlinClock->display_bloc5_hours(10);
-        $this->assertEquals("{5h,10h,}",$actual);
+        $this->assertEquals("{ bloc5hours :ON,ON,OFF,OFF,}",$actual);
     }
-    public function test_simple_hours_15_return_5h_10h_15h(){
+    public function test_bloc5hours_15_return_5h_10h_15h(){
         $actual=$this->berlinClock->display_bloc5_hours(15);
-        $this->assertEquals("{5h,10h,15h}",$actual);
+        $this->assertEquals("{ bloc5hours :ON,ON,ON,OFF,}",$actual);
     }
-    public function test_simple_hours_15_return_5h_10h_15h_20h(){
+    public function test_bloc5hours_15_return_5h_10h_15h_20h(){
         $actual=$this->berlinClock->display_bloc5_hours(20);
-        $this->assertEquals("{5h,10h,15h,20h,}",$actual);
+        $this->assertEquals("{ bloc5hours :ON,ON,ON,ON,}",$actual);
     }
     public function test_NB_seconds_pair_return_ON(){
         $actual=$this->berlinClock->display_NBseconds_pair_or_Impair(20);

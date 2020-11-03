@@ -20,7 +20,7 @@ public function display_simple_hours($hours): String{
     return $text;
 }
     public function display_bloc5_hours($hours): String{
-        $text="{";
+        $text="{ bloc5hours :";
         for($i=0;$i<$hours%5;$i++){
             $this->bloc5_hours[$i]="ON";
             $text=$text.$this->bloc5_hours[$i].",";
