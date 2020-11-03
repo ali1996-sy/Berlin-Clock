@@ -7,31 +7,35 @@ class BerlinClock
     private $bloc5_hours;
 public function __construct()
 {
-    $this->simpleHours=array("1stHour","2ndHour","3rdHour","4thHour");
-    $this->bloc5_hours=array("5h","10h","15h","20h");
+    $this->simpleHours=["OFF","OFF","OFF","OFF"];
+    $this->bloc5_hours=["OFF","OFF","OFF","OFF"];
 
 }
 public function display_simple_hours($hours): String{
     $text="{";
     for($i=0;$i<$hours;$i++){
-        $text+=$this->simpleHours[i]+",";
+        $text=$text.$this->simpleHours[$i].",";
     }
-    $text+="}";
+    $text=$text."}";
     return $text;
 }
     public function display_bloc5_hours($hours): String{
         $text="{";
         for($i=0;$i<$hours%5;$i++){
-            $text+=$this->bloc5_hours[i]+",";
+            $this->bloc5_hours[$i]="ON";
+            $text=$text.$this->bloc5_hours[$i].",";
         }
-        $text+="}";
+        for($i=$hours;$i<sizeof($this->bloc5_hours);$i++){
+            $text=$text.$this->bloc5_hours[$i].",";
+        }
+        $text=$text."}";
         return $text;
     }
     public function display_NBseconds_pair_or_Impair($seconds): String{
         $text="{";
-        if($seconds%2==0)$text+="pair";
-        else$text+="impair";
-        $text+="}";
+        if($seconds%2==0)$text=$text."pair";
+        else$text=$text."impair";
+        $text=$text."}";
         return $text;
     }
 }
