@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="display_NBseconds_pair_or_Impair">
+      <change beforePath="$PROJECT_DIR$/BerlinClockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockTest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jkdnHHETSc5GakU3iOgiEOx1VD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/composer.phar" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="commandLineParameters" value="" />
+      <option name="pathToComposerJson" value="C:\Users\Ali\PhpstormProjects\BerlinClock\composer.phar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BerlinClockTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BerlinClockTest" file="$PROJECT_DIR$/BerlinClockTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 5.6" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner coverage_engine="PHPDBG" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.BerlinClockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="" />
+      <created>1604352188232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604352188232</updated>
+      <workItem from="1604352189456" duration="5456000" />
+      <workItem from="1604358809036" duration="4062000" />
+    </task>
+    <task id="LOCAL-00001" summary="composer added">
+      <created>1604354318702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604354318702</updated>
+    </task>
+    <task id="LOCAL-00002" summary="composer added">
+      <created>1604354355601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604354355601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creat function display_simple_hours">
+      <created>1604356203257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604356203257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test_simple_minutes_1min_return_1st_lamp">
+      <created>1604360444248</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360444248</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test_simple_hours_2min_return_1st_2nd">
+      <created>1604360853585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360853585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test_simple_hours_2min_return_1st_2nd_3rd">
+      <created>1604360924218</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360924218</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test_simple_hours_2min_return_1st_2nd_3rd_4th">
+      <created>1604360971876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604360971876</updated>
+    </task>
+    <task id="LOCAL-00008" summary="display_bloc5_hours">
+      <created>1604361579830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604361579830</updated>
+    </task>
+    <task id="LOCAL-00009" summary="display_bloc5_hours">
+      <created>1604361708176</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604361708176</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test_simple_hours_1_return_5h">
+      <created>1604361783897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604361783897</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test_simple_hours_10_return_5h">
+      <created>1604362175727</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604362175727</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test_simple_hours_15_return_5h_10h_15h">
+      <created>1604362246702</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604362246702</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test_simple_hours_15_return_5h_10h_15h_20h">
+      <created>1604362324820</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604362324820</updated>
+    </task>
+    <task id="LOCAL-00014" summary="display_NBseconds_pair_or_Impair">
+      <created>1604362772010</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604362772010</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="composer added" />
+    <MESSAGE value="creat function display_simple_hours" />
+    <MESSAGE value="test_simple_minutes_1min_return_1st_lamp" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd" />
+    <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd_4th" />
+    <MESSAGE value="display_bloc5_hours" />
+    <MESSAGE value="test_simple_hours_1_return_5h" />
+    <MESSAGE value="test_simple_hours_10_return_5h" />
+    <MESSAGE value="test_simple_hours_15_return_5h_10h_15h" />
+    <MESSAGE value="test_simple_hours_15_return_5h_10h_15h_20h" />
+    <MESSAGE value="display_NBseconds_pair_or_Impair" />
+    <option name="LAST_COMMIT_MESSAGE" value="display_NBseconds_pair_or_Impair" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="263" key="#Composer" timestamp="1604358837229">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="535" y="263" key="#Composer/84.0.1282.768@84.0.1282.768" timestamp="1604358837229" />
+    <state x="216" y="30" key="#PHP" timestamp="1604359096364">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="216" y="30" key="#PHP/84.0.1282.768@84.0.1282.768" timestamp="1604359096364" />
+    <state x="305" y="59" key="#Test_Frameworks" timestamp="1604360788021">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="305" y="59" key="#Test_Frameworks/84.0.1282.768@84.0.1282.768" timestamp="1604360788021" />
+    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604360789101">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="102" y="24" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604360789101" />
+    <state x="505" y="159" key="FileChooserDialogImpl" timestamp="1604360308045">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="505" y="159" key="FileChooserDialogImpl/84.0.1282.768@84.0.1282.768" timestamp="1604360308045" />
+    <state width="1239" height="176" key="GridCell.Tab.0.bottom" timestamp="1604360836565">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="176" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604360836565" />
+    <state width="1239" height="176" key="GridCell.Tab.0.center" timestamp="1604360836564">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="176" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604360836564" />
+    <state width="1239" height="176" key="GridCell.Tab.0.left" timestamp="1604360836564">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="176" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604360836564" />
+    <state width="1239" height="176" key="GridCell.Tab.0.right" timestamp="1604360836565">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="176" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604360836565" />
+    <state x="513" y="127" key="NewPhpClassDialog" timestamp="1604352201924">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="513" y="127" key="NewPhpClassDialog/84.0.1282.768@84.0.1282.768" timestamp="1604352201924" />
+    <state x="539" y="138" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604354423936">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="539" y="138" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/84.0.1282.768@84.0.1282.768" timestamp="1604354423936" />
+    <state x="474" y="148" width="614" height="512" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1604352217389">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="474" y="148" width="614" height="512" key="com.jetbrains.php.test.PhpNewTestDialog/84.0.1282.768@84.0.1282.768" timestamp="1604352217389" />
+    <state x="381" y="184" key="run.anything.popup" timestamp="1604356809658">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="381" y="184" key="run.anything.popup/84.0.1282.768@84.0.1282.768" timestamp="1604356809658" />
+  </component>
+</project>
