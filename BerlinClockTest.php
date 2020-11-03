@@ -44,5 +44,9 @@ class BerlinClockTest extends TestCase
         $actual=$this->berlinClock->display_bloc5_hours(20);
         $this->assertEquals("{5h,10h,15h,20h,}",$actual);
     }
+    public function test_NB_seconds_pair_return_ON(){
+        $actual=$this->berlinClock->display_bloc5_hours(20);
+        $this->assertEquals("{ON}",$actual);
+    }
 
 }
