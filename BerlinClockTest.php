@@ -63,5 +63,9 @@ class BerlinClockTest extends TestCase
         $actual = $this->display_5_by_5_minutes(45);
         $this->assertEquals("[ON][ON[ON][ON][ON][ON][ON][ON][ON][OFF][OFF]"  , $actual);
     }
+    public  function test_display_givenMinutes_5_shouldReturn_ON_10_OFF_1(){
+        $actual = $this->display_5_by_5_minutes(50);
+        $this->assertEquals("[ON][ON[ON][ON][ON][ON][ON][ON][ON][ON][OFF]"  , $actual);
+    }
 
 }
