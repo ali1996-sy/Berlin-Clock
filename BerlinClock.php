@@ -17,7 +17,7 @@ public function display_simple_hours($hours): String{
         $this->simpleHours[$i]="ON";
         $text=$text.$this->simpleHours[$i].",";
     }
-    for($i=$hours;$i<sizeof($this->simpleHours);$i++){
+    for($i=$hours;$i<4;$i++){
         $text=$text.$this->simpleHours[$i].",";
     }
     $text=$text."}";
@@ -25,11 +25,11 @@ public function display_simple_hours($hours): String{
 }
     public function display_bloc5_hours($hours): String{
         $text="{ bloc5hours :";
-        for($i=0;$i<$hours/5;$i++){
+        for($i=0;$i<$hours;$i++){
             $this->bloc5_hours[$i]="ON";
             $text=$text.$this->bloc5_hours[$i].",";
         }
-        for($i=$hours/5;$i<sizeof($this->bloc5_hours);$i++){
+        for($i=$hours;$i<4;$i++){
             $text=$text.$this->bloc5_hours[$i].",";
         }
         $text=$text."}";
@@ -47,8 +47,8 @@ public function display_simple_hours($hours): String{
         $hours=(int)substr($date,0,2);
         $minutes=(int)substr($date,3,2);
         $seconds=(int)substr($date,6,2);
-        $text=$text.$this->display_NBseconds_pair_or_impair($seconds;
-        $text=$text."\n".$this->display_bloc5_hours($hours);
+        $text=$text.$this->display_NBseconds_pair_or_impair($seconds);
+        $text=$text."\n".$this->display_bloc5_hours($hours/5);
         $text=$text."\n".$this->display_simple_hours($hours%5)."\n";
         return $text;
     }
