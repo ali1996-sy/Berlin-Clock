@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoTestManager">
+    <enabled-run-configurations>
+      <run-configuration type="PHPUnitRunConfigurationType" name="BerlinClockTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d7c7b2c-fcb3-4010-84a5-58a569f379aa" name="Default Changelist" comment="refactoring tests" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jmd7UcdRkpWa4N1c8LpWqQlNc9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php-7.4/php.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BerlinClockTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="BerlinClockTest" file="$PROJECT_DIR$/BerlinClockTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.BerlinClockTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d7c7b2c-fcb3-4010-84a5-58a569f379aa" name="Default Changelist" comment="" />
+      <created>1604413050139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604413050139</updated>
+      <workItem from="1604413060171" duration="7356000" />
+      <workItem from="1604423716270" duration="1470000" />
+      <workItem from="1604431549887" duration="3243000" />
+      <workItem from="1604434923630" duration="282000" />
+      <workItem from="1604435230799" duration="2816000" />
+    </task>
+    <task id="LOCAL-00001" summary="refactoring display_bloc5_hours">
+      <created>1604417828737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604417828737</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactoring display_NBseconds_pair_or_Impair">
+      <created>1604417989111</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604417989111</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring display_bloc5hours">
+      <created>1604418459043</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604418459043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactoring display_bloc5hours">
+      <created>1604418700946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604418700946</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactoring display_simple_hours">
+      <created>1604418908695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604418908695</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactoring tests">
+      <created>1604420146245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604420146245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test digital_to_berlin">
+      <created>1604424407452</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604424407452</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add digital_to_berlin">
+      <created>1604435978121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604435978121</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactoring tests">
+      <created>1604437510241</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604437510241</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactoring display_bloc5_hours" />
+    <MESSAGE value="refactoring display_NBseconds_pair_or_Impair" />
+    <MESSAGE value="refactoring display_bloc5hours" />
+    <MESSAGE value="refactoring display_simple_hours" />
+    <MESSAGE value="test digital_to_berlin" />
+    <MESSAGE value="add digital_to_berlin" />
+    <MESSAGE value="refactoring tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring tests" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="39" key="#CLI_Interpreters" timestamp="1604414016655">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="312" y="39" key="#CLI_Interpreters/84.0.1282.768@84.0.1282.768" timestamp="1604414016655" />
+    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604437736533">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="179" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/84.0.1282.768@84.0.1282.768" timestamp="1604437736533" />
+    <state x="512" y="139" key="FileChooserDialogImpl" timestamp="1604413939303">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="512" y="139" key="FileChooserDialogImpl/84.0.1282.768@84.0.1282.768" timestamp="1604413939303" />
+    <state width="1239" height="205" key="GridCell.Tab.0.bottom" timestamp="1604436763263">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="205" key="GridCell.Tab.0.bottom/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
+    <state width="1239" height="205" key="GridCell.Tab.0.center" timestamp="1604436763263">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="205" key="GridCell.Tab.0.center/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
+    <state width="1239" height="205" key="GridCell.Tab.0.left" timestamp="1604436763263">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="205" key="GridCell.Tab.0.left/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
+    <state width="1239" height="205" key="GridCell.Tab.0.right" timestamp="1604436763263">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state width="1239" height="205" key="GridCell.Tab.0.right/84.0.1282.768@84.0.1282.768" timestamp="1604436763263" />
+    <state x="518" y="86" key="RollbackChangesDialog" timestamp="1604433327823">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="518" y="86" key="RollbackChangesDialog/84.0.1282.768@84.0.1282.768" timestamp="1604433327823" />
+    <state x="226" y="29" key="SettingsEditor" timestamp="1604414122647">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="226" y="29" key="SettingsEditor/84.0.1282.768@84.0.1282.768" timestamp="1604414122647" />
+    <state x="317" y="117" key="Vcs.Push.Dialog.v2" timestamp="1604437751582">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="317" y="117" key="Vcs.Push.Dialog.v2/84.0.1282.768@84.0.1282.768" timestamp="1604437751582" />
+    <state x="84" y="0" width="1021" height="521" key="dock-window-1" timestamp="1604433900318">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="84" y="0" width="1021" height="521" key="dock-window-1/84.0.1282.768@84.0.1282.768" timestamp="1604433900318" />
+    <state x="381" y="174" key="run.anything.popup" timestamp="1604422973581">
+      <screen x="84" y="0" width="1282" height="768" />
+    </state>
+    <state x="381" y="174" key="run.anything.popup/84.0.1282.768@84.0.1282.768" timestamp="1604422973581" />
+  </component>
+</project>
