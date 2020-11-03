@@ -7,5 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
-    'd4cec4c1ab59bc84356816be55838054' => $vendorDir . '/phpunit/phpunit/PHPUnit/Autoload.php',
 );

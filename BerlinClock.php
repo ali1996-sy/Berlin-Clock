@@ -5,10 +5,12 @@ class BerlinClock
 {
     private $simpleHours;
     private $bloc5_hours;
+    private $seconds;
 public function __construct()
 {
     $this->simpleHours=["OFF","OFF","OFF","OFF"];
     $this->bloc5_hours=["OFF","OFF","OFF","OFF"];
+    $this->$seconds=["OFF"];
 
 }
 public function display_simple_hours($hours): String{
