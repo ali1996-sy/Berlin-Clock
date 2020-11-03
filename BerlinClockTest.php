@@ -175,6 +175,14 @@ class BerlinClockTest extends TestCase
     public function test_digital_to_berlin_00_00_00(){
         $actual = $this->berlinClock->digital_to_berlin("00:00:00");
         $this->assertEquals("{round :ON}\n{ bloc5hours :OFF,OFF,OFF,OFF,}\n{ simples hours :OFF,OFF,OFF,OFF,}\n{bloc5minutes :[OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}\n{simpleMinutes :[OFF][OFF][OFF][OFF]}", $actual);
+    }
+    public function test_digital_to_berlin_24_00_00(){
+        $actual = $this->berlinClock->digital_to_berlin("24:00:00");
+        $this->assertEquals("{round :ON}\n{ bloc5hours :ON,ON,ON,ON,}\n{ simples hours :ON,ON,ON,ON,}\n{bloc5minutes :[OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}\n{simpleMinutes :[OFF][OFF][OFF][OFF]}", $actual);
+    }
+    public function test_digital_to_berlin_13_17_01(){
+        $actual = $this->berlinClock->digital_to_berlin("13:17:01");
+        $this->assertEquals("{round :OFF}\n{ bloc5hours :ON,ON,OFF,OFF,}\n{ simples hours :ON,ON,ON,OFF,}\n{bloc5minutes :[ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}\n{simpleMinutes :[ON][ON][OFF][OFF]}", $actual);
         var_dump($actual);
     }
 
