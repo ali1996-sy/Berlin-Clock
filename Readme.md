@@ -1,6 +1,6 @@
 # Berlin-Clock
 
-#### create by
+#### created by
  - Abdulrazzak Abdi
  - Abdulhamid Ali
  ## introduction
