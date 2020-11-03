@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="display_bloc5_hours">
+    <list default="true" id="667a6a1f-9f44-4468-a9f6-2f8662599013" name="Default Changelist" comment="test_simple_hours_1_return_5h">
       <change beforePath="$PROJECT_DIR$/BerlinClockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/BerlinClockTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604352188232</updated>
       <workItem from="1604352189456" duration="5456000" />
-      <workItem from="1604358809036" duration="2888000" />
+      <workItem from="1604358809036" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="composer added">
       <created>1604354318702</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604361708176</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test_simple_hours_1_return_5h">
+      <created>1604361783897</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604361783897</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +191,8 @@
     <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd" />
     <MESSAGE value="test_simple_hours_2min_return_1st_2nd_3rd_4th" />
     <MESSAGE value="display_bloc5_hours" />
-    <option name="LAST_COMMIT_MESSAGE" value="display_bloc5_hours" />
+    <MESSAGE value="test_simple_hours_1_return_5h" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_simple_hours_1_return_5h" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="263" key="#Composer" timestamp="1604358837229">
