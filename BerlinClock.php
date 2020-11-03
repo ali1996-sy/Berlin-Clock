@@ -27,4 +27,11 @@ public function display_simple_hours($hours): String{
         $text+="}";
         return $text;
     }
+    public function display_NBseconds_pair_or_Impair($seconds): String{
+        $text="{";
+        if($seconds%2==0)$text+="pair";
+        else$text+="impair";
+        $text+="}";
+        return $text;
+    }
 }
