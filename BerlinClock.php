@@ -14,10 +14,10 @@ public function __construct()
 public function display_simple_hours($hours): String{
     $text="{ simples hours :";
     for($i=0;$i<$hours;$i++){
-        $this->bloc5_hours[$i]="ON";
+        $this->simpleHours[$i]="ON";
         $text=$text.$this->simpleHours[$i].",";
     }
-    for($i=$hours;$i<sizeof($this->bloc5_hours);$i++){
+    for($i=$hours;$i<sizeof($this->simpleHours);$i++){
         $text=$text.$this->simpleHours[$i].",";
     }
     $text=$text."}";
@@ -25,11 +25,11 @@ public function display_simple_hours($hours): String{
 }
     public function display_bloc5_hours($hours): String{
         $text="{ bloc5hours :";
-        for($i=0;$i<$hours%5;$i++){
+        for($i=0;$i<$hours/5;$i++){
             $this->bloc5_hours[$i]="ON";
             $text=$text.$this->bloc5_hours[$i].",";
         }
-        for($i=$hours;$i<sizeof($this->bloc5_hours);$i++){
+        for($i=$hours/5;$i<sizeof($this->bloc5_hours);$i++){
             $text=$text.$this->bloc5_hours[$i].",";
         }
         $text=$text."}";
