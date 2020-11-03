@@ -19,9 +19,9 @@ public function display_simple_hours($hours): String{
     $text+="}";
     return $text;
 }
-    public function display_bloc5_hours($nbbloc5): String{
+    public function display_bloc5_hours($hours): String{
         $text="{";
-        for($i=0;$i<$nbbloc5;$i++){
+        for($i=0;$i<$hours%5;$i++){
             $text+=$this->bloc5_hours[i]+",";
         }
         $text+="}";
