@@ -12,8 +12,12 @@ public function __construct()
 
 }
 public function display_simple_hours($hours): String{
-    $text="{";
+    $text="{ simples hours :";
     for($i=0;$i<$hours;$i++){
+        $this->bloc5_hours[$i]="ON";
+        $text=$text.$this->simpleHours[$i].",";
+    }
+    for($i=$hours;$i<sizeof($this->bloc5_hours);$i++){
         $text=$text.$this->simpleHours[$i].",";
     }
     $text=$text."}";
