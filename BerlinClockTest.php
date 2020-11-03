@@ -113,7 +113,7 @@ class BerlinClockTest extends TestCase
     public function test_NB_seconds_impair_return_OFF(){
         $actual=$this->berlinClock->display_NBseconds_pair_or_Impair(33);
         $this->assertEquals("{round :OFF}",$actual);
-        $l=$this->berlinClock->digital_to_berlin("23:10:40");
+        $l=$this->berlinClock->digital_to_berlin("23:59:59");
         var_dump($l);
    }
 
