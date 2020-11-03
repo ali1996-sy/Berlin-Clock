@@ -35,11 +35,21 @@ public function display_simple_hours($hours): String{
         $text=$text."}";
         return $text;
     }
-    public function display_NBseconds_pair_or_Impair($seconds): String{
+    public function display_NBseconds_pair_or_impair($seconds): String{
         $text="{round :";
         if($seconds%2==0)$text=$text."ON";
         else$text=$text."OFF";
         $text=$text."}";
+        return $text;
+    }
+    public function digital_to_berlin($date):String{
+        $text="";
+        $hours=(int)substr($date,0,2);
+        $minutes=(int)substr($date,3,2);
+        $seconds=(int)substr($date,6,2);
+        $text=$text.$this->display_NBseconds_pair_or_impair($seconds;
+        $text=$text."\n".$this->display_bloc5_hours($hours);
+        $text=$text."\n".$this->display_simple_hours($hours%5)."\n";
         return $text;
     }
 }
