@@ -15,63 +15,63 @@ class BerlinClockTest extends TestCase
    }
     public  function test_display_givenSimpleMinutes1_shouldReturn_ON_OFF_OFF_OFF(){
         $actual = $this->berlinClock->display_simple_minutes(1);
-        $this->assertEquals("[ON][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{simpleMinutes :[ON][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenSimpleMinutes2_shouldReturn_ON_ON_OFF_OFF(){
         $actual = $this->berlinClock->display_simple_minutes(2);
-        $this->assertEquals("[ON][ON][OFF][OFF]"  , $actual);
+        $this->assertEquals("{simpleMinutes :[ON][ON][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenSimpleMinutes3_shouldReturn_ON_ON_ON_OFF(){
     $actual = $this->berlinClock->display_simple_minutes(3);
-    $this->assertEquals("[ON][ON][ON][OFF]"  , $actual);
+    $this->assertEquals("{simpleMinutes :[ON][ON][ON][OFF]}"  , $actual);
     }
     public  function test_display_givenSimpleMinutes4_shouldReturn_ON_ON_ON_ON(){
     $actual = $this->berlinClock->display_simple_minutes(4);
-    $this->assertEquals("[ON][ON][ON][ON]"  , $actual);
+    $this->assertEquals("{simpleMinutes :[ON][ON][ON][ON]}"  , $actual);
 }
     public  function test_display_givenMinutes_5_shouldReturn_ON_1_OFF_10(){
         $actual = $this->berlinClock->display_5_by_5_minutes(1);
-        $this->assertEquals("[ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_2_OFF_9(){
         $actual = $this->berlinClock->display_5_by_5_minutes(2);
-        $this->assertEquals("[ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_3_OFF_8(){
         $actual = $this->berlinClock->display_5_by_5_minutes(3);
-        $this->assertEquals("[ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_4_OFF_7(){
         $actual = $this->berlinClock->display_5_by_5_minutes(4);
-        $this->assertEquals("[ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_5_OFF_6(){
         $actual = $this->berlinClock->display_5_by_5_minutes(5);
-        $this->assertEquals("[ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_6_OFF_5(){
         $actual = $this->berlinClock->display_5_by_5_minutes(6);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_7_OFF_4(){
         $actual = $this->berlinClock->display_5_by_5_minutes(7);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][ON][OFF][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_8_OFF_3(){
         $actual = $this->berlinClock->display_5_by_5_minutes(8);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][ON][ON][OFF][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][ON][ON][OFF][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_9_OFF_2(){
         $actual = $this->berlinClock->display_5_by_5_minutes(9);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][ON][ON][ON][OFF][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][ON][ON][ON][OFF][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_10_OFF_1(){
         $actual = $this->berlinClock->display_5_by_5_minutes(10);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][ON][ON][ON][ON][OFF]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][ON][ON][ON][ON][OFF]}"  , $actual);
     }
     public  function test_display_givenMinutes_5_shouldReturn_ON_11_OFF_0(){
         $actual = $this->berlinClock->display_5_by_5_minutes(11);
-        $this->assertEquals("[ON][ON][ON][ON][ON][ON][ON][ON][ON][ON][ON]"  , $actual);
+        $this->assertEquals("{bloc5minutes :[ON][ON][ON][ON][ON][ON][ON][ON][ON][ON][ON]}"  , $actual);
     }
 
     public function test_simple_hours_1_return_ON_OFF_OFF_OFF(){
@@ -114,7 +114,9 @@ class BerlinClockTest extends TestCase
         $actual=$this->berlinClock->display_NBseconds_pair_or_Impair(33);
         $this->assertEquals("{round :OFF}",$actual);
         $l=$this->berlinClock->digital_to_berlin("23:10:40");
+        var_dump($l);
    }
+
 
 
 }
